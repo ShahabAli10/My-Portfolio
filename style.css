@@ -44,6 +44,21 @@ body{
     }
 }
 
+@media (max-width:428px){
+    .header{
+        position: relative;
+        display: inline;
+    }
+    .logo{
+        position: relative;
+        right: 60px;
+    }
+    .navbar{
+        position: relative;
+        right: 15px;
+    }
+}
+
 .logo{
     position: relative;
     font-size: 25px;
@@ -120,7 +135,7 @@ body{
 @media (max-width:360px){
     .home{
         position: relative;
-        bottom: 100px;
+        bottom: 75px;
         right: 15px;
     }
     .home-content{
@@ -132,12 +147,39 @@ body{
     .home-content h3{
         font-size: 10px;
     }
-    .home-content p{
+}
+
+@media (max-width:390px){
+    .home{
         position: relative;
-        word-spacing: 8px;
-        word-break: break-all;
+        bottom: 80px;
+    }
+    .home-content{
+        font-size: 0.8rem;
+    }
+    .home-content h1{
+        font-size: 30px;
+    }
+    .home-content h3{
+        font-size: 15px;
     }
 }
+
+@media (max-width:428px){
+    .home{
+        position: relative;
+        bottom: 130px;
+        right: 20px;
+    }
+    .home-content{
+        font-size: 0.8rem;
+    }
+    .home-content h1,
+    .home-content h3{
+        font-size: 30px;
+    }
+}
+
 .home-content h1::before{
     content: '';
     position: absolute;
@@ -319,6 +361,21 @@ body{
         position: relative;
         top: 400px;
         right: 350px;
+    }
+}
+
+@media (max-width:390px){
+    .home-sci a{
+        position: relative;
+        bottom: .9px;   
+    }
+}
+
+@media (max-width:428px){
+    .home-sci{
+        position: relative;
+        top: 300px;
+        right: 345px;
     }
 }
 
